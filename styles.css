@@ -9,7 +9,7 @@ html{
 body{
     font-family: 'Spartan', sans-serif;
     padding: 0px 20px;
-    background-color: pink;
+    /* background-color: pink; */
     background-image: url("./images/bg-pattern-top-desktop.svg"),url("./images/bg-pattern-bottom-desktop.svg");
     background-position: left 0px top 0px,bottom -200px right 0px;
     background-repeat: no-repeat,no-repeat;
