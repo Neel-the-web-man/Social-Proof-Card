@@ -9,25 +9,10 @@ html{
 body{
     font-family: 'Spartan', sans-serif;
     padding: 0px 20px;
-}
-.bg{
-    display:flex;
-    overflow: hidden;
-}
-.bg-top{
-    display: block;
-    position: absolute;
-    left: -60px;
-    z-index: -2;
-    width: 584px;
-    height: 362px;
-}
-.bg-bottom{
-    display: block;
-    position: absolute;
-    top:130px;
-    left: 300px;
-    z-index: -9;
+    background-color: pink;
+    background-image: url("./images/bg-pattern-top-desktop.svg"),url("./images/bg-pattern-bottom-desktop.svg");
+    background-position: left 0px top 0px,bottom -200px right 0px;
+    background-repeat: no-repeat,no-repeat;
 }
 .container{
     display: flex;
